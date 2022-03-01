@@ -115,7 +115,8 @@ function conversorEuroReal_Dolar(){
                 }
     }
 } 
-        
+ 
+
 
 
 function ajuda(){

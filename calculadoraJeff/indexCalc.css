@@ -27,6 +27,10 @@
     background-color: rgb(31,31,31);
     border: none;
     color: #fff;
+    -webkit-animation: cores-teclas 5s steps(1) infinite; /* Safari 4+ */
+    -moz-animation:    cores-teclas 5s steps(1) infinite; /* Fx 5+ */
+    -o-animation:      cores-teclas 5s steps(1) infinite; /* Opera 12+ */
+    animation:         cores-teclas 5s steps(1) infinite; /* IE 10+, Fx 29+ */
 }
 .botao:hover{
     background-color: black;
@@ -41,3 +45,38 @@
     text-align: right;
     padding: 15px;
 }
+.conv {
+    color: rgb(15, 185, 0);
+    font-size:large;
+    transform: rotate(-30deg)
+    
+}
+
+  @-webkit-keyframes cores-teclas {
+    0%  {background-color: #10A302;}
+    20% {background-color: #43963c;}
+    40% {background-color: #225a1d;}
+    60% {background-color: #A3126C;}
+    80%{background-color:  #F04AB1;}
+  }
+  @-moz-keyframes cores-teclas {
+    0%  {background-color: #10A302;}
+    20% {background-color: #43963c;}
+    40% {background-color: #225a1d;}
+    60% {background-color: #A3126C;}
+    80%{background-color:  #F04AB1;}
+  }
+  @-o-keyframes cores-teclas {
+    0%  {background-color: #10A302;}
+    20% {background-color: #43963c;}
+    40% {background-color: #225a1d;}
+    60% {background-color: #A3126C;}
+    80%{background-color:  #F04AB1;}
+  }
+  @keyframes cores-teclas {
+    0%  {background-color: #10A302;}
+    20% {background-color: #43963c;}
+    40% {background-color: #225a1d;}
+    60% {background-color: #A3126C;}
+    80%{background-color:  #F04AB1;}
+  }
